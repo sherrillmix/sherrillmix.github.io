@@ -20,7 +20,7 @@ ul {
 }
 
 li {
-  font: 0px;
+  font: 200 0px/1.5 Helvetica, Verdana, sans-serif;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
 }
