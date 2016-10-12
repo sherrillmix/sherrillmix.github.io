@@ -41,6 +41,11 @@ li a {
 }
 
 li :hover {
-  font-size: 30px;
   background: #f6f6f6;
+}
+li :hover a{
+  font-size: 30px;
+}
+li :hover #desc{
+  font-size: 13px;
 }
