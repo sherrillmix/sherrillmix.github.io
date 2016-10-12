@@ -18,6 +18,12 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+
+  -webkit-transition: font-size 1s ease, background-color 1s ease;
+  -moz-transition: font-size 1s ease, background-color 1s ease;
+  -o-transition: font-size 1s ease, background-color 1s ease;
+  -ms-transition: font-size 1s ease, background-color 1s ease;
+  transition: font-size 1s ease, background-color 1s ease;
 }
 
 li {
@@ -29,13 +35,6 @@ li {
   font-size:0;
 }
 
-li{
-  -webkit-transition: font-size 1s ease, background-color 1s ease;
-  -moz-transition: font-size 1s ease, background-color 1s ease;
-  -o-transition: font-size 1s ease, background-color 1s ease;
-  -ms-transition: font-size 1s ease, background-color 1s ease;
-  transition: font-size 1s ease, background-color 1s ease;
-}
 
 li a {
   font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
@@ -53,3 +52,4 @@ li:hover a{
 li:hover .desc{
   font-size: 13px;
 }
+
