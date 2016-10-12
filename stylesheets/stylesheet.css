@@ -47,7 +47,7 @@ li:hover .desc{
   font-size: 13px;
 }
 
-li *{
+ul *{
   -webkit-transition: font-size 1s ease, background-color 1s ease;
   -moz-transition: font-size 1s ease, background-color 1s ease;
   -o-transition: font-size 1s ease, background-color 1s ease;
