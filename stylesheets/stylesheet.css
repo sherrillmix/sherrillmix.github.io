@@ -18,12 +18,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-
-  -webkit-transition: font-size 1s ease, background-color 1s ease;
-  -moz-transition: font-size 1s ease, background-color 1s ease;
-  -o-transition: font-size 1s ease, background-color 1s ease;
-  -ms-transition: font-size 1s ease, background-color 1s ease;
-  transition: font-size 1s ease, background-color 1s ease;
 }
 
 li {
@@ -53,3 +47,10 @@ li:hover .desc{
   font-size: 13px;
 }
 
+li *{
+  -webkit-transition: font-size 1s ease, background-color 1s ease;
+  -moz-transition: font-size 1s ease, background-color 1s ease;
+  -o-transition: font-size 1s ease, background-color 1s ease;
+  -ms-transition: font-size 1s ease, background-color 1s ease;
+  transition: font-size 1s ease, background-color 1s ease;
+}
