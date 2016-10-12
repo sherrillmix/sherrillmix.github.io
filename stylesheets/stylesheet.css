@@ -46,6 +46,6 @@ li :hover {
 li :hover a{
   font-size: 30px;
 }
-li :hover #desc{
+li :hover .desc{
   font-size: 13px;
 }
