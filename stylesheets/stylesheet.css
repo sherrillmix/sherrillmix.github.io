@@ -38,12 +38,12 @@ li a {
   transition: font-size 0.3s ease, background-color 0.3s ease;
 }
 
-li :hover {
+li:hover {
   background: #f6f6f6;
 }
-li :hover a{
+li:hover a{
   font-size: 30px;
 }
-li :hover .desc{
+li:hover .desc{
   font-size: 13px;
 }
