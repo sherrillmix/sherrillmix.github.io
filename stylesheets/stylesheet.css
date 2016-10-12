@@ -9,6 +9,7 @@ h2 {
   font: 400 40px/1.5 Helvetica, Verdana, sans-serif;
   margin: 0;
   padding: 0;
+  margin-bottom:3px solid #ccc;
 }
 
 ul {
@@ -24,8 +25,16 @@ li {
   border-top: 1px solid #ccc;
 }
 
-l .desc {
+li .desc {
   font-size:0;
+}
+
+li{
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
 }
 
 li a {
@@ -33,12 +42,6 @@ li a {
   text-decoration: none;
   color: #000;
   display: block;
-
-  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
-  transition: font-size 0.3s ease, background-color 0.3s ease;
 }
 
 li:hover {
