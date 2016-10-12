@@ -20,11 +20,13 @@ ul {
 }
 
 li {
-  font: 200 0px/1.5 Helvetica, Verdana, sans-serif;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
 }
 
+l .desc {
+  font-size:0;
+}
 
 li a {
   font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
