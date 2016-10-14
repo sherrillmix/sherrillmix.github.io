@@ -1,8 +1,8 @@
 /* Initially based on https://designshack.net/articles/css/5-simple-and-practical-css-list-styles-you-can-copy-and-paste/ */
 div {
-  width: 400px;
   margin-left:auto;
   margin-right:auto;
+  width:80%;
 }
 
 h2 {
@@ -13,21 +13,25 @@ h2 {
 }
 
 ul {
-  margin-left:auto;
+  margin-left:20px;
+  padding:0;
   width: 90%;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 li {
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #ccc;
+  border: 1px solid #ccc;
+  display: inline-block;
+  list-style:none;
+  vertical-align:top;
+  width: 200px;
+  height: 300px;
+  border-radius: 15px;
 }
 
-.desc {
+/* .desc {
   font-size:0;
-}
+}*/
 
 
 li a {
@@ -42,9 +46,9 @@ li:hover {
 li:hover a{
   font-size: 30px;
 }
-li:hover .desc{
+/*li:hover .desc{
   font-size: 13px;
-}
+}*/
 
 ul *{
   -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
