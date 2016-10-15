@@ -15,7 +15,6 @@ h2 {
 ul {
   margin-left:20px;
   padding:0;
-  width: 90%;
   list-style-type: none;
 }
 
@@ -28,12 +27,14 @@ li {
   height: 300px;
   border-radius: 15px;
   padding:10px;
+  margin:5px;
 }
 
-h4{
-  padding:0;
-  margin-left:auto;
-  margin-right:auto;
+a{
+  font: 200 40px/1.5 Helvetica, Verdana, sans-serif;
+  text-align:center;
+  padding:0px;
+  margin:5px;
 }
 
 /* .desc {
@@ -42,24 +43,25 @@ h4{
 
 
 li a {
-  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  display: block;
+  font: 200 25px/1.5 Helvetica, Verdana, sans-serif;
   text-decoration: none;
+  padding: 0 1% 0 1%;
   color: #000;
 }
 
 li:hover {
-  background: #f6f6f6;
-  border: 3px solid #666;
-  padding:8px;
+  background: #333333;
+  color: #cccccc;
 }
 li:hover a{
-  font-size: 30px;
+  color: #cccccc;
 }
 
 ul *{
-  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease, border 0.3s ease, padding 0.3s ease;
-  -moz-transition: font-size 0.3s ease, background-color 0.3s ease, border 0.3s ease, padding 0.3s ease;
-  -o-transition: font-size 0.3s ease, background-color 0.3s ease, border 0.3s ease, padding 0.3s ease;
-  -ms-transition: font-size 0.3s ease, background-color 0.3s ease, border 0.3s ease, padding 0.3s ease;
-  transition: font-size 0.3s ease, background-color 0.3s ease, border 0.3s ease, padding 0.3s ease;
+  -webkit-transition: font-size 2s ease, background-color 2s ease, border 2s ease, padding 2s ease, color 2s ease;
+  -moz-transition: font-size 2s ease, background-color 2s ease, border 2s ease, padding 2s ease, color 2s ease;
+  -o-transition: font-size 2s ease, background-color 2s ease, border 2s ease, padding 2s ease, color 2s ease;
+  -ms-transition: font-size 2s ease, background-color 2s ease, border 2s ease, padding 2s ease, color 2s ease;
+  transition: font-size 2s ease, background-color 2s ease, border 2s ease, padding 2s ease, color 2s ease;
 }
