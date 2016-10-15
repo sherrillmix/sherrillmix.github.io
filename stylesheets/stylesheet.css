@@ -27,6 +27,13 @@ li {
   width: 200px;
   height: 300px;
   border-radius: 15px;
+  padding:10px;
+}
+
+h4{
+  padding:0;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 /* .desc {
@@ -42,25 +49,17 @@ li a {
 
 li:hover {
   background: #f6f6f6;
+  border: 3px solid #666;
+  padding:8px;
 }
 li:hover a{
   font-size: 30px;
 }
-/*li:hover .desc{
-  font-size: 13px;
-}*/
 
 ul *{
-  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
-  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
-  transition: font-size 0.3s ease, background-color 0.3s ease;
-}
-li .desc *{
-  -webkit-transition: font-size 0.5s ease, background-color 0.5s ease;
-  -moz-transition: font-size 0.5s ease, background-color 0.5s ease;
-  -o-transition: font-size 0.5s ease, background-color 0.5s ease;
-  -ms-transition: font-size 0.5s ease, background-color 0.5s ease;
-  transition: font-size 0.5s ease, background-color 0.5s ease;
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease, border 0.3s ease, padding 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease, border 0.3s ease, padding 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease, border 0.3s ease, padding 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease, border 0.3s ease, padding 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease, border 0.3s ease, padding 0.3s ease;
 }
