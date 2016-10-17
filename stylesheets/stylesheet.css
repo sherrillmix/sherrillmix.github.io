@@ -27,26 +27,27 @@ li {
   border-radius: 15px;
   padding:10px;
   margin:5px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-a{
-  font: 200 40px/1.5 Helvetica, Verdana, sans-serif;
-  text-align:center;
-  padding:0px;
-  margin:5px;
+.desc {
+  font: 100 12px/1.5 Helvetica, Verdana, sans-serif;
+  display:block;
+  text-align:left;
 }
-
-/* .desc {
-  font-size:0;
-}*/
 
 
 li a {
   display: block;
-  font: 200 25px/1.5 Helvetica, Verdana, sans-serif;
   text-decoration: none;
-  padding: 0 1% 0 1%;
   color: #000;
+}
+li a .title{
+  display:block;
+  font: 200 25px/1.5 Helvetica, Verdana, sans-serif;
+  padding: 0 1% 0 1%;
+  text-align:center;
 }
 
 li:hover {
